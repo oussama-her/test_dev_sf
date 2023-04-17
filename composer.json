@@ -8,8 +8,10 @@
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-iconv": "*",
+        "ext-json": "*",
         "ext-libxml": "*",
         "ext-simplexml": "*",
+        "amphp/http-client": "^4.6",
         "composer/package-versions-deprecated": "1.11.99.1",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.2",
@@ -47,6 +49,7 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "*",
         "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "*",
         "roave/security-advisories": "dev-master",
         "symfony/browser-kit": "^5.2",
         "symfony/css-selector": "^5.2",
