@@ -1,0 +1,7 @@
+parameters:
+  rss:
+    rssUrl: '%env(RSS_URL)%'
+    imageSrcHint: '%env(IMAGE_SRC_HINT)%'
+
+  api:
+    apiUrl: '%env(API_URL)%'
